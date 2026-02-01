@@ -12,13 +12,13 @@ const MessageSchema = new Schema<IMessage>({
     chat : {
         type : Schema.Types.ObjectId,
         ref : "Chat",
-        req : true
+        required : true
     },
 
     sender : {
         type : Schema.Types.ObjectId,
         ref : "User",
-        req : true
+        required : true
     },
 
     text : {

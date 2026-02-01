@@ -4,7 +4,7 @@ export interface IUser extends Document{
     clearkId : string;
     name : string;
     email : string;
-    avatar? : string;
+    avatar : string;
     createdAt : Date;
     updatedAt : Date;
 };
